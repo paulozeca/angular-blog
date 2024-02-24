@@ -10,6 +10,8 @@ export class SmallCardComponent implements OnInit {
   photoCover:string=""
   @Input()
   cardTitle:string="Atenção Atenção!SAIU A NOVA VERSÃO DO ANGULAR!"
+  @Input()
+  Id:string="0"
 
   constructor() { }
 
